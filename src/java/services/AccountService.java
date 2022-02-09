@@ -1,4 +1,4 @@
-package MyLogin;
+package services;
 
 
 import models.User;
@@ -12,10 +12,7 @@ public class AccountService {
             return new User(username, null);
         
         }else {
-            return null;
-            
+            return null; 
         }
-    
-    }
-    
+    }  
 }
